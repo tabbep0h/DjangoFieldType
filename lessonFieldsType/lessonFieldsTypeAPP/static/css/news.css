@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.post{
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(199, 199, 199);
+    margin-bottom: 20px;
+    width: 400px;
+}
+.name{
+    font-size: large;
+}
+.url1{
+    overflow:hidden;
+}
+.url{
+    overflow:hidden;
+    color: rgb(98, 98, 98);
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(133, 133, 133);
+    color: black;
+    transition: 1s;
+}
+.btn:hover{
+    transform: scale(110%);
+}
